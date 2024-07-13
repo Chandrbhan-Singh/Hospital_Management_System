@@ -13,6 +13,8 @@ import com.dao.DoctorDAO;
 import com.db.DBConnect;
 import com.entity.Doctor;
 @WebServlet("/addDoctor")
+	
+	//Add Doctor page
 public class AddDoctor extends HttpServlet{
 
 	@Override
