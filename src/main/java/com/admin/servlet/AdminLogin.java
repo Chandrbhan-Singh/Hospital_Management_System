@@ -11,6 +11,8 @@ import javax.servlet.http.HttpSession;
 
 import com.entity.User;
 
+// admin login
+
 @WebServlet("/adminLogin")
 public class AdminLogin extends HttpServlet{
 
