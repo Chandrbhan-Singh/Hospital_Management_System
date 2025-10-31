@@ -16,7 +16,8 @@ import com.entity.Doctor;
 	
 	//Add Doctor page
 public class AddDoctor extends HttpServlet{
-
+	
+	// override the method here
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
